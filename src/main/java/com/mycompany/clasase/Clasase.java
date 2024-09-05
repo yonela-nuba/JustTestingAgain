@@ -11,6 +11,11 @@ package com.mycompany.clasase;
 public class Clasase {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        NewClass newClass = new NewClass();
+        newClass.a = 20;
     }
+}
+class NewClass{
+   //Adding new class
+    int a;
 }
